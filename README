@@ -1,0 +1,8 @@
+This is the final project for Zoe's 474, to run it first build it using Cmake and then make sure to match the source with the exact same contents as this source folder, after that run the code.
+This should run the simulator as well as create a socket in the folder source/maze_resources called 'socke', ready to receive incoming connections
+
+To interface with the driver, navigate to the source/maze_resources in terminal, then type make
+
+Make sure that the simulator is running in opengl, then execute the binary flood_fill with argument 1 as 'socke'
+
+make sure to remove socke file after you're done or you wont be able to run the simualtor again. 
